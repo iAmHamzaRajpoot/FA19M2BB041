@@ -51,6 +51,9 @@ body{
 /* Jumbotron */
 .jumbotron{
     padding-top: 101px;
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
     padding-bottom: 282px;
     background: url(assets/jumbotron.svg) no-repeat center 18px #2c3038;
 }
@@ -62,4 +65,45 @@ body{
     line-height: 1.1;
     color: #fff;
     text-align: center;
+}
+.lead{
+    margin: 0 auto 24px;
+}
+.d-sm-block{
+    display: block;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 300;
+    color: #fff;
+}
+.btn-download{
+    text-align: center;
+    margin-bottom: 1.25rem;
+}
+.btn-download p a{
+    display: inline-block;
+    padding: 0.3125rem 1rem;
+    font-size: 1.5rem;
+    line-height: 1.5;
+    border-radius: 0.1875rem;
+    font-weight: 200;
+    text-decoration: none;
+    color: #fff;
+    background-color: #cc2936;
+    border-color: #cc2936;
+}
+
+.platforms{
+    font-size: .875rem;
+    margin-bottom: 0;
+}
+.platforms a{
+    color: #fff;
+}
+.zotero-bib{
+    font-size: .875rem;
+    margin-top: 0.875rem;
+}
+.zotero-bib a{
+    color: #fff;
 }
