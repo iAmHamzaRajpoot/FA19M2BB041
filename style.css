@@ -16,10 +16,14 @@ body{
 }
 .container{
     width: 100%;
+    width: 100%;
+    padding-right: 16px;
+    padding-left: 16px;
+    margin-right: auto;
+    margin-left: auto;
 }
 .wrapper{
     margin: 16px auto;
- 
     width: 1202px;
     justify-content: space-between;
 }
@@ -124,4 +128,40 @@ body{
     margin: auto;
     width: 1170px;
     aspect-ratio: auto 1170 / 658;
+}
+
+/* Features */
+.features{
+    margin: 133px 0 67px;
+}
+
+.features .container .display-1{
+    color: black;
+}
+.row{
+    display: flex;
+    margin-right: -16px;
+    margin-left: -16px;
+}
+.align-items-center{
+    align-items: center;
+}
+.section-md{
+    padding: 5rem 0;
+}
+.display-2{
+    margin-bottom: 1.75rem;
+    letter-spacing: -0.035em;
+    font-size: 2.5rem;
+    font-weight: 300;
+    line-height: 1.1;
+}
+body .features p{
+    font-size: 1.1rem;
+    line-height: 1.5555555556;
+}
+
+.feature-detail{
+    flex-basis: 30.5rem;
+    padding: 5rem;
 }
