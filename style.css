@@ -107,3 +107,21 @@ body{
 .zotero-bib a{
     color: #fff;
 }
+
+/* ScreenShot */
+
+.section-screenshot{
+    width: 100%;
+    margin-top: -12rem;
+    background: none;
+    padding-bottom: 0;
+}
+.screenshot{
+    display: flex;
+    justify-content: center;
+}
+.section-screenshot img{
+    margin: auto;
+    width: 1170px;
+    aspect-ratio: auto 1170 / 658;
+}
